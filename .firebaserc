@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fanpage-76320": {
+      "hosting": {
+        "web": [
+          "fanpage-76320"
+        ]
+      }
+    }
+  }
+}

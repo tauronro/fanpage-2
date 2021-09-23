@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "super byzantine";
+  src: url("./assets/fonts/AnyConv.com__Super\ byzantine.woff");
+}
+@font-face {
+  font-family: "lordish";
+  src: url("./assets/fonts/Lordish.woff");
+}
+@font-face {
+  font-family: "Deutsch";
+  src: url("./assets/fonts/Deutsch.woff");
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  //background-color: #420202;
+  background-image: linear-gradient(
+    0deg,
+    rgb(31, 30, 30) 0%,
+    rgb(17, 15, 15) 57%
+  );
+  background-image: url('./assets/img/eso1132e.jpg'), linear-gradient(
+    0deg,
+    rgb(31, 30, 30) 0%,
+    rgb(17, 15, 15) 57%
+  );;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: cover;
+  .divider-line {
+    width: 100px;
+  }
+  .global-container {
+    height: 100%;
+    overflow: auto;
+  }
+  .footer {
+    background-image: linear-gradient(
+      0deg,
+      rgb(27, 27, 27) 0%,
+      rgb(0, 0, 0) 57%
+    );
+  }
+}
+
+.uk-background-primary {
+  background-color: #4e0909;
+}
+
+.super_byzantine {
+  font-family: "super byzantine", Roboto, "Helvetica Neue", sans-serif;
+}
+.lordish {
+  font-family: "lordish", Roboto, "Helvetica Neue", sans-serif;
+}
+.deutsch {
+  font-family: "Deutsch", Roboto, "Helvetica Neue", sans-serif;
+}
