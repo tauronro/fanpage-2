@@ -11,6 +11,10 @@
   font-family: "Deutsch";
   src: url("./assets/fonts/Deutsch.woff");
 }
+@font-face {
+  font-family: "Chomsky";
+  src: url("./assets/fonts/Chomsky.woff");
+}
 
 html,
 body {
@@ -25,11 +29,12 @@ body {
     rgb(31, 30, 30) 0%,
     rgb(17, 15, 15) 57%
   );
-  background-image: url('./assets/img/eso1132e.jpg'), linear-gradient(
+  background-image: url('./assets/img/background.jpg'), linear-gradient(
     0deg,
     rgb(31, 30, 30) 0%,
     rgb(17, 15, 15) 57%
-  );;
+  );
+  background-size: contain;
   //   background-repeat: no-repeat;
   //   background-position: center;
   //   background-size: cover;
@@ -50,7 +55,10 @@ body {
 }
 
 .uk-background-primary {
-  background-color: #4e0909;
+  background-color: #03283e;
+}
+.uk-background-secondary {
+  background-color: #000000;
 }
 
 .super_byzantine {
@@ -61,4 +69,10 @@ body {
 }
 .deutsch {
   font-family: "Deutsch", Roboto, "Helvetica Neue", sans-serif;
+}
+.carrois_gothic_sc {
+  font-family: 'Carrois Gothic SC', Roboto, "Helvetica Neue", sans-serif;
+}
+.chomsky {
+  font-family: 'Chomsky', Roboto, "Helvetica Neue", sans-serif;
 }
