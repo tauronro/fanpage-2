@@ -1,9 +1,19 @@
 {
+  "projects": {
+    "master": "fanpage-2-84a64"
+  },
   "targets": {
     "fanpage-76320": {
       "hosting": {
         "web": [
-          "fanpage-76320"
+          "fanpage-2-84a64"
+        ]
+      }
+    },
+    "fanpage-2-84a64": {
+      "hosting": {
+        "web": [
+          "fanpage-2-84a64"
         ]
       }
     }
